@@ -1,0 +1,13 @@
+[package]
+name = "router_bug"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = {git = "https://github.com/yewstack/yew", branch = "master"}
+yew-router = {git = "https://github.com/yewstack/yew", branch = "master"}
+wasm-logger = "0.2.0"
+gloo-console = "0.2.1"
+wee_alloc = "0.4.5"

@@ -1,0 +1,3 @@
+[build]
+dist="..//static"
+public_url = "/static/"
